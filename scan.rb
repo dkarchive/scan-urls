@@ -6,19 +6,21 @@ c = File.read 'README.md'
 links = AwesomeBot.links_find c
 link = links[0]
 
+warn link
+
+ 
+
 require 'net/http'
-      require 'uri'
+require 'uri'
 
-      uri = URI.parse link
+def open(url)
+  Net::HTTP.get(URI.parse(url))
+end
 
-      Net::HTTP.start(uri.host, uri.port, :use_ssl => uri.scheme == 'https', :open_timeout => 10) do |http|
-        
+b = open link
+ 
 
-          request = Net::HTTP::Get.new uri
-        
-        response = http.request request
-b = response.body
-
+      
 warn b
 
 File.write FILE, b
