@@ -19,5 +19,5 @@ require 'net/http'
         response = http.request request
 b = response.body
 
-File.open (FILE, 'w') {|f| f.puts b}
+File.write FILE, b
 puts "Wrote" + FILE
