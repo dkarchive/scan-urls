@@ -10,3 +10,4 @@ test:
 general:
   artifacts:
     - "temp"
+    - "ab-results-temp.json"
