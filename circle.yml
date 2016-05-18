@@ -1,0 +1,9 @@
+machine:
+  ruby:
+    version: 2.2.0
+test:
+  pre:
+    - gem install awesome_bot
+  override:
+    - ruby scan.rb
+    - awesome_bot temp
