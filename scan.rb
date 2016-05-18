@@ -8,19 +8,11 @@ link = links[0]
 
 warn link
 
- 
-
 require 'net/http'
 require 'uri'
 
-def open(url)
-  Net::HTTP.get(URI.parse(url))
-end
-
-b = open link
- 
-
-      
+b = Net::HTTP.get(URI.parse(link))
+   
 warn b
 
 File.write FILE, b
