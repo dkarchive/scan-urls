@@ -1,8 +1,11 @@
 require 'awesome_bot'
 
-FILE = 'temp'
+r, f = ARGV 
 
-c = File.read 'README.md'
+warn r
+warn f
+
+c = File.read r
 links = AwesomeBot.links_find c
 link = links[0]
 
@@ -15,5 +18,5 @@ b = Net::HTTP.get(URI.parse(link))
    
 warn b
 
-File.write FILE, b
-puts "Wrote temp"
+File.write f, b
+puts '👍'
