@@ -9,5 +9,5 @@ test:
     - awesome_bot temp -t 10
 general:
   artifacts:
-    - "temp"
-    - "ab-results-temp.json"
+    - temp
+    - ab-results-temp.json
