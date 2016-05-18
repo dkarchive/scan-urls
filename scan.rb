@@ -19,5 +19,7 @@ require 'net/http'
         response = http.request request
 b = response.body
 
+warn b
+
 File.write FILE, b
-puts "Wrote" + FILE
+puts "Wrote temp"
