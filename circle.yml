@@ -6,4 +6,7 @@ test:
     - gem install awesome_bot
   override:
     - ruby scan.rb
-    - awesome_bot temp
+    - awesome_bot temp -t 10
+general:
+  artifacts:
+    - "temp"
