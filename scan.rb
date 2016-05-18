@@ -13,7 +13,7 @@ warn 'output: ' + f
 
 c = File.read r
 links = AwesomeBot.links_find c
-warn 'links:' + links
+warn 'links:' + links.to_s
 
 if links.count == 0
     puts 'no links found'
