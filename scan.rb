@@ -6,10 +6,10 @@ if ARGV.count==0
 end
 
 SKIP = [
-'https://github.com/dkhamsing/awesome_bot', 
-'https://github.com/dkhamsing/scan-urls/pull/3',
-'https://github.com/dkhamsing',
-'https://twitter.com/dkhamsing'
+    'https://github.com/dkhamsing/awesome_bot', 
+    'https://github.com/dkhamsing/scan-urls/pull/3',
+    'https://github.com/dkhamsing',
+    'https://twitter.com/dkhamsing'
 ]
 
 r, f = ARGV
