@@ -13,6 +13,6 @@ To scan URLs on a page, create a pull request to edit this README and paste its 
 
 <!-- 
 
-PASTE URL HERE:
+PASTE URL HERE:https://raw.githubusercontent.com/shazow/ssh-chat/master/README.md
 
 -->
