@@ -4,9 +4,11 @@ machine:
 test:
   pre:
     - gem install awesome_bot
+    - gem install danger
   override:
     - ruby scan.rb README.md temp
     - awesome_bot temp -t 10 --allow-dupe
+    - danger
 general:
   artifacts:
     - temp
