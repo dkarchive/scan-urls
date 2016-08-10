@@ -13,6 +13,6 @@ To scan URLs on a page, create a pull request to edit this README and paste its 
 
 <!-- 
 
-PASTE URL HERE:
+PASTE URL HERE: https://github.com/devlucky/Kakapo/blob/master/README.md
 
 -->
