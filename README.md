@@ -14,5 +14,5 @@ To scan URLs on a page, create a pull request to edit this README and paste its 
 <!-- 
 
 PASTE URL HERE:
-
+https://raw.githubusercontent.com/open-guides/og-aws/master/README.md
 -->
